@@ -1,6 +1,15 @@
 # run-buddy
-Phase 1: 
-  Created structure with basic html and CSS.
-  
-Phase 2:
-  Create a more mobile friendly version
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by Jeremy Rice
