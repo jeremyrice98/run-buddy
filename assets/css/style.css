@@ -238,19 +238,21 @@ header h1 {
 
 .contact h2 {
   color: #fce138;
+  display: block;
 }
 
 .contact-info iframe {
   width: 400px;
   height: 400px;
+  float: left
 }
 
-.contact-info div {
+.contact-info{
   width: 410px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
-  margin: 30px 0 0 60px;
+  margin: 30px 0;
   color: white;
 }
 
