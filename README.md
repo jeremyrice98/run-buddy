@@ -12,3 +12,4 @@ https://jeremyrice98.github.io/run-buddy/.
 
 ## Contribution
 Made with ❤️ by Jeremy Rice
+ 
