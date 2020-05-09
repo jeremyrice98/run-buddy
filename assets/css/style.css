@@ -265,10 +265,59 @@ header nav ul{
     background: #024e76;
     color: #fce138;
     flex: 1
+    
   }
 
-  .trainer img {
+  .trainer-1 {
+    background-image: url("../images/trainer-1.jpg");
+  }
+
+  .trainer-2 {
+    background-image: url("../images/trainer-2.jpg");
+  }
+
+  .trainer-3 {
+    background-image: url("../images/trainer-3.jpg");
+  }
+
+  .trainer-img {
     width: 100%;
+    min-height: 300px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    background-size: cover;
+    position: relative;
+  }
+
+  .trainer-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(252, 225, 56, 0.3);
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0s;
+  }
+
+  .trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+    opacity: 0px;
+  }
+  .trainer-img h3 {
+    font-size: 28px 22px;
+    position: relative;
+    margin-bottom: 5px;
+    z-index: 50;
+    transition: ease-in 0.6;
+  }
+  
+  .trainer-img h4 {
+    font-size: 28px 22px;
+    position: relative;
+    z-index: 50;
+    transition: ease-in 0.6;
   }
   
   .trainer-bio {
@@ -286,6 +335,7 @@ header nav ul{
 
   .trainer-bio h3 {
     font-size: 28px;
+    display: block;
   
   }
   
@@ -293,6 +343,7 @@ header nav ul{
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
+    display: block;
   }
   
   .trainer-bio p {
@@ -614,6 +665,9 @@ header nav ul{
     grid-row: -1;
   }
  
+  .trainer-img h3 .trainer-img h4 .trainer-img::after{
+    display: none;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
